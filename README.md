@@ -14,7 +14,7 @@ I then cleaned the data, and created API endpoints using [FastAPI](https://fasta
 # Run server locally
 - Download the repo
 - cd to the repo directory
-- ```$ pip install fastapi[all]```
+- ```$ pip install "fastapi[all]"```
 - ```$ pip install beautifulsoup4```
 - Start the server - ```$ uvicorn main:app --reload``` 
 - Make any requests using the endpoints below
