@@ -47,4 +47,4 @@ For testing each endpoint, I used the [pytest](https://docs.pytest.org/en/6.2.x/
 - Write tests (DONE)
 
 
-### *Note*: *Instead of pip install individual dependencies, you could run* ```pip install -r requirements.txt``` *and skip the installing steps below*
+### *Note*: *Instead of pip install individual dependencies, you could run* ```pip install -r requirements.txt``` *and skip the installing steps*
