@@ -9,7 +9,7 @@ I then cleaned the data, and created API endpoints using [FastAPI](https://fasta
 # Technologies used
 1. I used FastAPI for the endpoints.
 2. Python
-3. Beautiful soup to scrap the website that I needed and get the data.
+3. Beautiful soup to scrape the website that I needed and get the data.
 
 # Run server locally
 - Download the repo
