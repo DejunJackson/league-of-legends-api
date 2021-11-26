@@ -7,9 +7,10 @@ So, I created a web scraper that scraped all of the data for characters (or cham
 I then cleaned the data, and created API endpoints using [FastAPI](https://fastapi.tiangolo.com/).
 
 # Technologies used
-1. I used FastAPI for the endpoints.
-2. Python
-3. Beautiful soup to scrape the website that I needed and get the data.
+1. **Python**
+2. I used **FastAPI** for the endpoints.
+3. **Beautiful Soup** to scrape the website that I needed and get the data.
+4. **Pytest** for testing endpoints
 
 # Run server locally
 - Download the repo
@@ -18,6 +19,16 @@ I then cleaned the data, and created API endpoints using [FastAPI](https://fasta
 - ```$ pip install beautifulsoup4```
 - Start the server - ```$ uvicorn main:app --reload``` 
 - Make any requests using the endpoints below
+
+# Testing
+For testing each endpoint, I used the [pytest](https://docs.pytest.org/en/6.2.x/contents.html) testing module for python.
+
+## Setup
+- cd to the repo directory
+- ```$ pip install -U pytest```
+- Check to make sure it is installed - ```$ pytest --version```
+- To run tests - ```$ py.test```
+- Testing code is found in the test_cases directory
 
 # API reference table
 
@@ -30,4 +41,4 @@ I then cleaned the data, and created API endpoints using [FastAPI](https://fasta
 # To-Do
 - Scrape item data and add item endpoints
 - Deploy API
-- Write tests
+- Write tests (DONE)
