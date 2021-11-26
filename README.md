@@ -1,5 +1,7 @@
 # league-of-legends-api
 
+**This API is deployed on RapidAPI**. Visit [here](https://rapidapi.com/DejunJackson/api/league-of-legends-stats). 
+
 # Description
 One of my favorite games that I have been playing for years is [League of Legends](https://www.leagueoflegends.com/en-us/).
 I decided I wanted to make some projects for this game, but I didn't see a lot of APIs available.
@@ -30,6 +32,7 @@ For testing each endpoint, I used the [pytest](https://docs.pytest.org/en/6.2.x/
 - To run tests - ```$ py.test```
 - Testing code is found in the test_cases directory
 
+
 # API reference table
 
 | Method    | Endpoint     | Description |  
@@ -40,7 +43,7 @@ For testing each endpoint, I used the [pytest](https://docs.pytest.org/en/6.2.x/
 
 # To-Do
 - Scrape item data and add item endpoints
-- Deploy API
+- Deploy API (DONE)
 - Write tests (DONE)
 
 
