@@ -30,3 +30,4 @@ I then cleaned the data, and created API endpoints using [FastAPI](https://fasta
 # To-Do
 - Scrape item data and add item endpoints
 - Deploy API
+- Write tests
