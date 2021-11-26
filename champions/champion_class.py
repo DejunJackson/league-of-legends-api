@@ -24,6 +24,8 @@ class Champion:
         self.magic_resist_gain_per_lvl = magic_resist_gain_per_lvl
         self.movement_speed = movement_speed
         self.range = range_
+        self.ability_power = 0
+        self.crit = 0
 
     def serialize(self):
         return{
@@ -45,5 +47,7 @@ class Champion:
             'magic_resist': self.magic_resist,
             'magic_resist_gain_per_lvl': self.magic_resist_gain_per_lvl,
             'movement_speed': self.movement_speed,
-            'range': self.range
+            'range': self.range,
+            'ability_power': self.ability_power,
+            'crit': self.crit
         }
