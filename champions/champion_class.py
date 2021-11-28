@@ -26,6 +26,7 @@ class Champion:
         self.range = range_
         self.ability_power = 0
         self.crit = 0
+        self.ability_haste = 0
 
     def serialize(self):
         return{
@@ -49,5 +50,6 @@ class Champion:
             'movement_speed': self.movement_speed,
             'range': self.range,
             'ability_power': self.ability_power,
+            'ability_haste': self.ability_haste,
             'crit': self.crit
         }

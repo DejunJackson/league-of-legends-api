@@ -24,4 +24,4 @@ def test_get_specific_champ_stats_check_name_equals_Ekko():
     
 def test_get_specific_champ_names_check_length_is_159():
     stats_list = json.loads(response.text)
-    assert len(stats_list) == 19
+    assert len(stats_list) == 22
